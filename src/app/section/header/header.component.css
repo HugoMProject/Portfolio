@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.mat-toolbar{
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mat-toolbar span{
+  margin-left: 30px;
+}
+
+.btnMovilVersion{
+  display: none;
+}
+.list-link{
+  width: 300px;
+  display: flex;
+ justify-content: space-around;
+}
+.list-link li{
+  list-style: none;
+}
+.list-link li a {
+  text-decoration: none;
+}
