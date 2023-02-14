@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './section/header/header.component';
 import { BannerComponent } from './section/banner/banner.component';
 import { SkillsComponent } from './section/skills/skills.component';
-import { ProjectComponent } from './section/project/project.component';
+import { ProjectComponent } from './section/section-project/project.component';
 import { AboutMeComponent } from './section/about-me/about-me.component';
 import { FooterComponent } from './section/footer/footer.component';
 
