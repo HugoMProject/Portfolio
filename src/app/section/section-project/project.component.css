@@ -23,6 +23,7 @@
     font-size: 40px;
     line-height: 27px;
     letter-spacing: 0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .section-project{
     display: flex;
@@ -53,8 +54,9 @@
     letter-spacing: 0.02em;
 }
 .section-project .section-project-containers .project-container{
-    height: 150px;
-    width: 170px;
+    box-shadow: 3px 2px 8px 3px  rgba(0, 0, 0, 0.25) ;
+    height: 130px;
+    width: 130px;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -62,8 +64,4 @@
     position: relative;
     left: -50px;
     width: 300px;
-}
-.section-project .project-container h4{
-    background-color: aquamarine;
-    color: black;
 }

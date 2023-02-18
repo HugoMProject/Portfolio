@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.section{
+    position: absolute;
+    left: 0;
+    top:1400px;
+    width: 95%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.section h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 6%;
+}
+.section-skills{
+    display: flex;
+    flex-direction: column;
+}
+.section-skills .section-skills-containers{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section-skills .tittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: -15px;
+    margin-bottom: 10px;
+
+}
+.section-skills .tittle h4{
+    text-align: center;
+    width: 100px;
+    font-size: 18.5px;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.section-skills .section-skills-containers .skills-container{
+    box-shadow: 3px 2px 8px 3px  rgba(0, 0, 0, 0.25) ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.section-skills .skills-container .img1{
+    position: relative;
+    top: -75px;
+    left: -140px;
+    height: 230px;
+    width: 380px;
+}
+.section-skills .skills-container .img2{
+    position: relative;
+    left: -25px;
+    height: 110px;
+    width: 150px;
+}
+.section-skills .js-color{
+    background-color: rgba(248, 215, 26, 0.829);
+}
+.section-skills .skills-container .img3{
+    position: relative;
+    left: -30px;
+    top:-20px;
+    height: 100px;
+    width: 140px;
+}
+.section-skills .skills-container .img4{
+    position: relative;
+    left: -55px;
+    top:-15px;
+    height: 135px;
+    width: 210px;
+}
+.section-skills .skills-container .img5{
+    position: relative;
+    left: -20px;
+    top:-15px;
+    height: 130px;
+    width: 140px;
+}
+.section-skills .skills-container .img6{
+    position: relative;
+    left: -5px;
+    height: 100px;
+    width: 125px;
+}
+.section-skills .skills-container .img7{
+    position: relative;
+    left: -130px;
+    top:-35px;
+    height: 180px;
+    width: 360px;
+}
+.section-skills .skills-container .img8{
+    position: relative;
+    left: -8px;
+    height: 100px;
+    width: 110px;
+}
+.section .new{
+    position: relative;
+    margin-top: 100px;
+    left: 12%;
+    width: 70%;
+}
+.section .new h3{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.section .new p{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.section .new p span{
+font-size: 20px;
+font-weight: 700;
+font-family: 'Noto Serif';
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
