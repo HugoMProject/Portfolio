@@ -15,6 +15,7 @@
 }
 .section h2{
     margin-top: 20px;
+    margin-bottom: 20px;
     text-align: center;
     font-family: 'Noto Serif';
     font-style: normal;
@@ -23,12 +24,35 @@
     line-height: 27px;
     letter-spacing: 0.02em;
 }
-.section-project {
+.section-project{
+    display: flex;
+    flex-direction: column;
+}
+.section-project .section-project-containers{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
-.section-project .project-container{
+.section-project .tittle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: -15px;
+    margin-bottom: 10px;
+
+}
+.section-project .tittle h4{
+    text-align: center;
+    width: 150px;
+    font-size: 18.5px;
+    font-weight: 700;
+    font-family: 'Noto Serif';
+    line-height: 20px;
+    letter-spacing: 0.02em;
+}
+.section-project .section-project-containers .project-container{
     height: 150px;
     width: 170px;
     border-radius: 50%;
