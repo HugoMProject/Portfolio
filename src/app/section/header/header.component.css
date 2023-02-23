@@ -11,7 +11,10 @@
   align-items: center;
 }
 .mat-toolbar span{
+  font-size: 30px;
   margin-left: 30px;
+  font-family: 'Noto Serif';
+    font-weight: 600;
 }
 
 .btnMovilVersion{
@@ -23,6 +26,8 @@
  justify-content: space-around;
 }
 .list-link li{
+  font-family: 'Noto Serif';
+    font-weight: 600;
   list-style: none;
 }
 .list-link li a {

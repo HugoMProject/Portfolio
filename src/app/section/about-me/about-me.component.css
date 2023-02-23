@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: relative;
+    top:1300px;
+    padding: 10px;
+
+}
+h2{
+    font-family: 'Noto Serif';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 22px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.02em;
+    margin-bottom: 8%;
+}
+.box-containers{
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.box-container img {
+    position: relative;
+    left: 0;
+}
+.box-container h4 {
+    position: relative;
+    width: 500px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    font-size: 25px;
+    font-family: 'Noto Serif';
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.box-container ul {
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.02em;
+    margin-bottom: 8%;
+}
+.box-container ul li{
+    margin-left: 5%;
+    list-style:circle;
+}
+.box-container div span{
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.02em;
+    margin-bottom: 8%;
+}
+.box-container div a{
+    text-decoration: none;
+}
+.box-container div a button{
+    cursor:pointer;
+    width: 180px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: black;
+    font-family: 'Noto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.02em;
+    margin-bottom: 8%;
+    color: white;
+}
+.box-container div  button:hover{
+    background-color: white;
+    color: black;
+    width: 190px;
+    height: 45px;
+}

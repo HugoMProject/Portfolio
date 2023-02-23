@@ -4,6 +4,8 @@
 }
 .section{
     position: absolute;
+    margin-top: 50px;
+    margin-bottom: 30px;
     left: 0;
     top:1400px;
     width: 95%;

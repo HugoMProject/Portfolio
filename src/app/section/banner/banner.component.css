@@ -20,7 +20,8 @@
     width: 350px;
     height: 200px;
     left: 20%;
-    top: 240px;
+    top:100px;
+    /* top: 240px; */
     
     font-family: 'Noto Serif';
     font-style: normal;
@@ -53,7 +54,7 @@
     position: relative;
     width: 225px;
     height: 350px;
-    left: 60%;
+    left: 80%;
     top: 0px;
     overflow: hidden;
     border-radius: 45%;

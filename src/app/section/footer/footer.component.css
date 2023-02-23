@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mat-toolbar{
+    position: relative;
+    top: 1800px;
+    height: 100px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mat-toolbar span{
+    font-size: 25px;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+    margin-left: 30px;
+  }
+  
+  .btnMovilVersion{
+    display: none;
+  }
+  .list-link{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+  }
+  .list-link li{
+    list-style: none;
+    font-size: 14px;
+    font-family: 'Noto Serif';
+    font-weight: 600;
+  }
