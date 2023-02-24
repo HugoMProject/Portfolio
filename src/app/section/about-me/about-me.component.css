@@ -22,10 +22,10 @@ h2{
 }
 .box-containers{
     position: relative;
-    left: 5%;
+    left: 2%;
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
 }
 .box-container img {
     position: relative;
@@ -33,7 +33,7 @@ h2{
 }
 .box-container h4 {
     position: relative;
-    width: 500px;
+    width: 90%;
     font-weight: 600;
     letter-spacing: 0.02em;
     font-size: 25px;
