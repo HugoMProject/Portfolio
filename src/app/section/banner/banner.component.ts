@@ -1,18 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { trigger,state,animate,transition,style } from '@angular/animations'
+import { trigger, state, animate, transition, style } from '@angular/animations'
 
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
   styleUrls: ['./banner.component.css'],
-  animations:[
-    trigger('animateName',[
-      state('void',style({
-        opacity:0
+  animations: [
+    trigger('animateName', [
+      state('void', style({
+        opacity: 0
       })),
-      transition(':enter',[
-        animate('1.5s ease-in',style({
-          opacity:1,
+      transition(':enter', [
+        animate('1.5s ease-in', style({
+          opacity: 1,
         })
         )
       ])
@@ -26,16 +26,31 @@ export class BannerComponent implements OnInit {
   ngOnInit(): void {
     this.moveImg()
   }
-  
-  moveImg(){
+
+  moveImg() {
     //funcion para mover el div coon imagen, para darle un efecto de animacion
-    window.onload = ()=>{
-      let imgDiv:any = document.getElementById('id-img');
-      let idH1:any = document.getElementById('id-h1');
-      idH1.style.top = "240px";
-      idH1.style.transitionDuration = "1.5s";
-      imgDiv.style.left = "60%";
-      imgDiv.style.transitionDuration = "1.5s";
+    window.onload = () => {
+      const imgDiv: any = document.getElementById('id-img');
+      const idH1: any = document.getElementById('id-h1');
+      console.log(screen.width)
+      /* condicional para dar el efecto de animacion a la seccion de banner para las diferente tipos de dispositivos*/
+      if (screen.width > 900) {
+        console.log('primer if');
+        idH1.style.top = "240px";
+        idH1.style.transitionDuration = "1.5s";
+        imgDiv.style.left = "60%";
+        imgDiv.style.transitionDuration = "1.5s";
+      } else if (screen.width <= 899 && screen.width > 500) {
+        console.log('segundo if');
+        idH1.style.left = "22%";
+        idH1.style.transitionDuration = "1.5s";
+      } else if (screen.width <= 499) {
+        idH1.style.left = "0%";
+        idH1.style.transitionDuration = "1.5s";
+      }
+
     }
   }
+
+
 }
