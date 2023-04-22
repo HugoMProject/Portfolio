@@ -2,34 +2,171 @@
   padding: 0;
   margin: 0;
 }
+/************************ laptop ****************/
+@media screen and (min-width:700px) {
+  .mat-toolbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mat-toolbar span{
+    font-size: 35px;
+    margin-left: 30px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+  }
+  
+  .btnMovilVersion{
+    display: none;
+  }
+  .list-link{
+    width: 300px;
+    display: flex;
+   justify-content: space-around;
+  }
+  .list-link li{
+    cursor: pointer;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+    list-style: none;
+  }
+  .list-link li a {
+    text-decoration: none;
+    color: white;
+  }
+  .list-link li a:hover{
+    border-bottom: 3px solid rgb(2, 13, 155) ;
+    transition: all 0.3s;
+    list-style: none;
+  }
+  
+}
+/************************ tablet *****************/
+@media (max-width:699px) and (min-width:500px) {
 
-.mat-toolbar{
-  background-color: black;
-  color:white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.mat-toolbar span{
-  font-size: 30px;
-  margin-left: 30px;
-  font-family: 'Noto Serif';
-    font-weight: 600;
-}
+  .mat-toolbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mat-toolbar span{
+    font-size: 28px;
+    margin-left: 30px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+  }
+  
+  .btnMovilVersion{
+    display: none;
+  }
+  .list-link{
+    width: 300px;
+    display: flex;
+   justify-content: space-around;
+  }
+  .list-link li{
+    
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+    list-style: none;
+  }
+  .list-link li a {
+    text-decoration: none;
+    color: white;
+  }
+  .list-link li a:hover{
+    border-bottom: 3px solid rgb(2, 13, 155) ;
+    transition: all 0.3s;
+    list-style: none;
+  }
 
-.btnMovilVersion{
-  display: none;
 }
-.list-link{
-  width: 300px;
-  display: flex;
- justify-content: space-around;
-}
-.list-link li{
-  font-family: 'Noto Serif';
-    font-weight: 600;
-  list-style: none;
-}
-.list-link li a {
-  text-decoration: none;
+/************************ mobile ******************/
+@media (max-width:499px) {
+
+  .mat-toolbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mat-toolbar span{
+    font-size: 25px;
+    margin-left: 30px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+  }
+  
+  .btnMovilVersion{
+    width: 35px;
+    height: 40px;
+    position: absolute;
+    left: 80%;
+    display: block;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px white;
+    border-radius: 5px;
+  }
+  .btnMovilVersion .line1{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 26px;
+    height: 2px;
+    background-color: white;
+    color: white;
+  }
+  .list-link{
+    position: absolute;
+    z-index: 1;
+    left: -1000px;
+    top: 55px;
+    background-color: rgb(41, 41, 41);
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+   transition: 0.6s;
+  }
+  .menuOn{
+    position: absolute;
+    left: 0px;
+    transition: 0.6s;
+  }
+  .list-link li{
+    cursor: pointer;
+    text-align: center;
+    font-size: 150px;
+    font-size: 22px;
+    font-family: 'Noto Serif';
+      font-weight: 600;
+    list-style: none;
+  }
+  .list-link li a:hover{
+    cursor: pointer;
+    border-bottom: 3px solid rgb(2, 13, 155) ;
+    transition: all 0.3s;
+    list-style: none;
+  }
+  .list-link li a {
+    text-decoration: none;
+    color: white;
+  }  
+  
 }
