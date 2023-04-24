@@ -15,6 +15,7 @@ export class HeaderComponent implements OnInit {
   showMenu(){
     /* funcion para activar el evento de la funcion para cambiar las clases*/
     const menu:any = document.getElementById('btnMenu');
+    menu.classList.toggle('open')
     menu.addEventListener("click", this.changeStyleMenuBanner())
   }
   
