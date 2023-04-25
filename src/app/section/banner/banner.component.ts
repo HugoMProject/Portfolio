@@ -32,7 +32,6 @@ export class BannerComponent implements OnInit {
     window.onload = () => {
       const imgDiv: any = document.getElementById('id-img');
       const idH1: any = document.getElementById('id-h1');
-      console.log(screen.width)
       /* condicional para dar el efecto de animacion a la seccion de banner para las diferente tipos de dispositivos*/
       if (screen.width > 900) {
         console.log('primer if');
@@ -40,11 +39,14 @@ export class BannerComponent implements OnInit {
         idH1.style.transitionDuration = "1.5s";
         imgDiv.style.left = "60%";
         imgDiv.style.transitionDuration = "1.5s";
-      } else if (screen.width <= 899 && screen.width > 500) {
-        console.log('segundo if');
+      } else if (screen.width <= 899 && screen.width >= 500) {
+        imgDiv.style.opacity = "1"
+        imgDiv.style.transitionDuration = "1.5s";
         idH1.style.left = "22%";
         idH1.style.transitionDuration = "1.5s";
       } else if (screen.width <= 499) {
+        imgDiv.style.opacity = "1"
+        imgDiv.style.transitionDuration = "1.5s";
         idH1.style.left = "0%";
         idH1.style.transitionDuration = "1.5s";
       }
