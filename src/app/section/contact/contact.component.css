@@ -256,8 +256,8 @@
         .container{
         position: relative;
         top: 1750px;
-        left: 5%;
-        width: 85vw;
+        left: 0;
+        width: 100vw;
         margin: 0;
         display: flex;
         flex-direction: column;
@@ -287,7 +287,7 @@
         position: relative;
         width: 60vw;
         top: 5px;
-        left: 15px;
+        left: 10vw;
         font-family: 'Noto Serif';
         font-style: normal;
         font-weight: 600;
@@ -319,6 +319,7 @@
         right: -25vw;
         width: 90vw;
         height: 200px;
+        overflow: hidden;
     }
     .box-container .div-fondo .img-fondo{
         width: 90vw;
@@ -326,7 +327,7 @@
     }
     .box-container .box-contact .icon{
         position: relative;
-        left: 5px;
+        left: 5vw;
         margin: 5px;
         width: 25px;
         height: 25px;
