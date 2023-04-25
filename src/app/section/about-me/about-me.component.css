@@ -2,140 +2,437 @@
     padding: 0;
     margin: 0;
 }
-.container{
-    position: relative;
-    top:1350px;
-    padding: 10px;
-    background-color: rgb(7, 7, 7);
-
+/************************* laptop ****************************/
+@media screen and (min-width:700px) {
+    .container{
+        position: relative;
+        top:1350px;
+        padding: 10px;
+        background-color: rgb(7, 7, 7);
+    
+    }
+    h2{
+        position: relative;
+        top: 40px;
+        width: 350px;
+        height: 30px;
+        left: 15%;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: white;
+        padding-left: 5px;
+        border-left: 9px solid rgb(2, 13, 155);
+    }
+    .box-containers{
+        position: relative;
+        left: 2%;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .box-container img {
+        position: relative;
+        left: 0;
+    }
+    .box-container h4 {
+        position: relative;
+        width: 90%;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        font-size: 20px;
+        font-family: 'Noto Serif';
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+    }
+    .box-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .box-container ul {
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+    }
+    .box-container ul li{
+        margin-left: 5%;
+        list-style:circle;
+        color: white;
+    }
+    .box-container div span{
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: white;
+    }
+    .box-container div a{
+        text-decoration: none;
+    }
+    .box-container div a button{
+        cursor:pointer;
+        width: 180px;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        background-color:white;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: black;
+    }
+    .box-container div a button:hover{
+        background-color: rgb(20, 20, 20);
+        color: rgb(163, 24, 24);
+        height: 40.5px;
+        transition: all 0.5s;
+        z-index: 4;
+    }
+    .certificacion{
+        position: relative;
+        top:1350px;
+        padding: 10px;
+    }
+    #tittle-certificacion{
+        color: black;
+        letter-spacing: 0.02em;  
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .certificados{
+        left: 20%;
+        position: relative;
+        top: 10px;
+        width: 50%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .div-img-certificado{
+        height: 160px;
+        width: 250px;
+        box-shadow: 2px 5px 2px rgb(185, 184, 184);
+    }
+    .div-img-certificado img{
+        width: 250px;
+        height: 160px;
+    }
 }
-h2{
-    position: relative;
-    top: 40px;
-    width: 350px;
-    height: 30px;
-    left: 15%;
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 45px;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
-    letter-spacing: 0.02em;
-    margin-bottom: 8%;
-    color: white;
-    padding-left: 5px;
-    border-left: 9px solid rgb(2, 13, 155);
+/************************* tablet ****************************/
+@media (max-width:699px)and(min-width:500px) {
+    .container{
+        position: relative;
+        top:1350px;
+        padding: 10px;
+        background-color: rgb(7, 7, 7);
+    
+    }
+    h2{
+        position: relative;
+        top: 40px;
+        width: 350px;
+        height: 30px;
+        left: 15%;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: white;
+        padding-left: 5px;
+        border-left: 9px solid rgb(2, 13, 155);
+    }
+    .box-containers{
+        position: relative;
+        left: 2%;
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+    }
+    .box-container img {
+        position: relative;
+        left: 0;
+    }
+    .box-container h4 {
+        position: relative;
+        width: 90%;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        font-size: 20px;
+        font-family: 'Noto Serif';
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+    }
+    .box-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .box-container ul {
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+    }
+    .box-container ul li{
+        margin-left: 5%;
+        list-style:circle;
+        color: white;
+    }
+    .box-container div span{
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: white;
+    }
+    .box-container div a{
+        text-decoration: none;
+    }
+    .box-container div a button{
+        cursor:pointer;
+        width: 180px;
+        height: 40px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        background-color:white;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: black;
+    }
+    .box-container div a button:hover{
+        background-color: rgb(20, 20, 20);
+        color: rgb(163, 24, 24);
+        height: 40.5px;
+        transition: all 0.5s;
+        z-index: 4;
+    }
+    .certificacion{
+        position: relative;
+        top:1350px;
+        padding: 10px;
+    }
+    #tittle-certificacion{
+        color: black;
+        letter-spacing: 0.02em;  
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .certificados{
+        left: 20%;
+        position: relative;
+        top: 10px;
+        width: 50%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    .div-img-certificado{
+        height: 160px;
+        width: 250px;
+        box-shadow: 2px 5px 2px rgb(185, 184, 184);
+    }
+    .div-img-certificado img{
+        width: 250px;
+        height: 160px;
+    }
 }
-.box-containers{
-    position: relative;
-    left: 2%;
-    display: flex;
-    justify-content: space-between;
-    width: 95%;
-}
-.box-container img {
-    position: relative;
-    left: 0;
-}
-.box-container h4 {
-    position: relative;
-    width: 90%;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    font-size: 20px;
-    font-family: 'Noto Serif';
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: white;
-}
-.box-info{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.box-container ul {
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    letter-spacing: 0.02em;
-    margin-bottom: 8%;
-}
-.box-container ul li{
-    margin-left: 5%;
-    list-style:circle;
-    color: white;
-}
-.box-container div span{
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 700;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    letter-spacing: 0.02em;
-    margin-bottom: 8%;
-    color: white;
-}
-.box-container div a{
-    text-decoration: none;
-}
-.box-container div a button{
-    cursor:pointer;
-    width: 180px;
-    height: 40px;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 25px;
-    background-color:white;
-    font-family: 'Noto Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 600;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    letter-spacing: 0.02em;
-    margin-bottom: 8%;
-    color: black;
-}
-.box-container div a button:hover{
-    background-color: rgb(20, 20, 20);
-    color: rgb(163, 24, 24);
-    height: 40.5px;
-    transition: all 0.5s;
-    z-index: 4;
-}
-.certificacion{
-    position: relative;
-    top:1350px;
-    padding: 10px;
-}
-#tittle-certificacion{
-    color: black;
-    letter-spacing: 0.02em;  
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.certificados{
-    left: 20%;
-    position: relative;
-    top: 10px;
-    width: 50%;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 20px;
-}
-.div-img-certificado{
-    height: 160px;
-    width: 250px;
-    box-shadow: 2px 5px 2px rgb(185, 184, 184);
-}
-.div-img-certificado img{
-    width: 250px;
-    height: 160px;
+/************************* mobile ****************************/
+@media (max-width:499px) {
+    .container{
+        position: relative;
+        top:1650px;
+        padding: 10px;
+        height: 750px;
+        background-color: rgb(7, 7, 7);
+    
+    }
+    h2{
+        position: relative;
+        top: 40px;
+        width: 50vw;
+        height: 30px;
+        left: 15%;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: white;
+        padding-left: 5px;
+        border-left: 9px solid rgb(2, 13, 155);
+    }
+    .box-containers{
+        position: relative;
+        left: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        width: 95%;
+    }
+    .box-container img {
+        position: relative;
+        top: 35px;
+        width: 65vw;
+        height: 150px;
+        left: 10%;
+    }
+    .box-container h4 {
+        position: relative;
+        width: 90vw;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+        font-size: 13.5px;
+        font-family: 'Noto Serif';
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: white;
+    }
+    .box-info{
+        position: relative;
+        top: 35px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .box-container ul {
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        position: relative;
+        left: 5%;
+        width: 80vw;
+        font-size: 11.5px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+    }
+    .box-container ul li{
+        margin-left: 5%;
+        list-style:circle;
+        color: white;
+    }
+    .box-container div span{
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 700;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 18%;
+        color: white;
+    }
+    .box-container div a{
+        text-decoration: none;
+    }
+    .box-container div a button{
+        cursor:pointer;
+        width: 100px;
+        height: 25px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 25px;
+        background-color:white;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        font-weight: 600;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        letter-spacing: 0.02em;
+        margin-bottom: 8%;
+        color: black;
+    }
+    .box-container div a button:hover{
+        background-color: rgb(20, 20, 20);
+        color: rgb(163, 24, 24);
+        height: 40.5px;
+        transition: all 0.5s;
+        z-index: 4;
+    }
+    .certificacion{
+        position: relative;
+        top:1650px;
+        padding: 10px;
+    }
+    #tittle-certificacion{
+        color: black;
+        letter-spacing: 0.02em;  
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .certificados{
+        left: 20%;
+        position: relative;
+        top: 40px;
+        width: 50vw;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        overflow: hidden;
+    }
+    .div-img-certificado{
+        height: 85px;
+        width: 110px;
+        box-shadow: 2px 5px 2px rgb(185, 184, 184);
+    }
+    .div-img-certificado img{
+        width: 110px;
+        height: 85px;
+    }
 }

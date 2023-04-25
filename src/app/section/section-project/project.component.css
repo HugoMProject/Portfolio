@@ -223,7 +223,7 @@
         margin-bottom: 20px;
         position: relative;
         top: -20px;
-        width: 350px;
+        width: 50vw;
         height: 30px;
         left: 15%;
         font-family: 'Noto Serif';
@@ -245,6 +245,7 @@
         left: 20%;
         display: flex;
         flex-direction: column;
+        box-shadow: 3px 2px 8px 3px  rgba(0, 0, 0, 0.25) ;
     }
     .section-project .section-project-containers{
         display: flex;
@@ -252,7 +253,7 @@
         height: 750px;
         justify-content: space-between;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 50px;
         width: 100%;
         overflow: hidden;
     }
@@ -270,7 +271,7 @@
     }
     .section-project .tittle{
         display: flex;
-        width: 80%;
+        width: 80vw;
         flex-direction: column;
         justify-content: space-evenly;
         padding-top: -15px;
@@ -296,7 +297,7 @@
     .section-project .tittle h4{
         padding-left: 15px;
         padding-right: 15px;
-        width: 350px;
+        width: 40vw;
         font-size: 14.2px;
         font-weight: 500;
         font-family: 'Noto Serif';
@@ -306,16 +307,17 @@
     
     }
     .section-project .section-project-containers .project-container{
-        box-shadow: 3px 2px 8px 3px  rgba(0, 0, 0, 0.25) ;
+
+        box-shadow: 3px 2px 8px 3px  rgba(0, 0, 0, 0.25);
         height: 160px;
-        width: 210px;
+        width: 80vw;
         overflow: hidden;
     }
     .section-project .project-container a .e-commerce{
         position: relative;
         background-size: cover;
         left: -10px;
-        width: 200px;
+        width: 60vw;
         height: 180px;
     }
     .section-project .project-container a .dashboard{
@@ -323,7 +325,7 @@
         background-size: cover;
         top: -5px;
         left: -25px;
-        width: 240px;
+        width: 70vw;
         height:  180px;
     }
     .section-project .project-container a .strangerthings{
@@ -331,7 +333,7 @@
         background-size: cover;
         top: -20px;
         left: 0px;
-        width:200px;
+        width:60vw;
         height:180px;
     }
 }

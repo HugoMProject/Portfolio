@@ -3,7 +3,7 @@
     margin:0;
 }
 /************************* laptop ****************************/
-@media screen and(min-width:700px) {
+@media screen and (min-width:700px) {
     .section{
         position: absolute;
         margin-top: 50px;
@@ -161,7 +161,7 @@
     }
 }
 /************************* tablet ****************************/
-@media (max-width:699px)and(min-width:500px) {
+@media (max-width:699px) and (min-width:500px) {
     .section{
         position: absolute;
         margin-top: 50px;
@@ -338,7 +338,7 @@
         margin-bottom: 20px;
         position: relative;
         top: 5px;
-        width: 350px;
+        width: 50vw;
         height: 30px;
         left: 15%;
         font-family: 'Noto Serif';
@@ -456,13 +456,13 @@
     }
     .section .new{
         position: relative;
-        margin-top: 100px;
+        margin-top: 60px;
         left: 12%;
         width: 70%;
     }
     .section .new h3{
         width: 100%;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: 700;
         font-family: 'Noto Serif';
         line-height: 20px;
@@ -471,13 +471,13 @@
     }
     .section .new p{
         width: 100%;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 500;
         line-height: 20px;
         letter-spacing: 0.02em;
     }
     .section .new p span{
-    font-size: 20px;
+    font-size: 12.5px;
     font-weight: 700;
     font-family: 'Noto Serif';
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
