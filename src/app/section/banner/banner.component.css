@@ -117,7 +117,7 @@
         position: relative;
         width: 60vw;
         height: 200px;
-        left: -15%;
+        left: -60%;
         top: 350px;
         /* top: 240px; */
 
@@ -219,7 +219,7 @@
         position: relative;
         width: 200px;
         height: 200px;
-        left: -10%;
+        left: -50%;
         top: 320px;
         
         font-family: 'Noto Serif';
@@ -251,11 +251,12 @@
         border: 1px solid white;
         border-radius: 20px;
         background-color: transparent;
+        transition-duration: 0.5s;
     }
     .banner-h1 .btn-cv:hover {
         transition: 0.5s;
         color: black;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         border: 1px solid white;
         border-radius: 20px;
