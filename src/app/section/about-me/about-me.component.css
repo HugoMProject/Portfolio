@@ -149,24 +149,24 @@
         top:1150px;
         padding: 10px;
         background-color: rgb(7, 7, 7);
-    
+        overflow-x: hidden;
     }
-    h2{
+    #h2-tittle{
         position: relative;
         top: 35px;
         width: 40vw;
         height: 30px;
+        margin: 0;
         left: 10%;
         font-family: 'Noto Serif';
         font-style: normal;
-        font-weight: 600;
         font-size: 30px;
         font-weight: 700;
         text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
         letter-spacing: 0.02em;
         margin-bottom: 8%;
         color: white;
-        padding-left: 5px;
+        /* padding-left: 5px; */
         border-left: 9px solid rgb(2, 13, 155);
     }
     .box-containers{
@@ -181,9 +181,9 @@
     .box-container img {
         position: relative;
         top: 35px;
-        width:  55vw;
-        height: 180px;
-        left: 15%;
+        width: 65vw;
+        height: 220px;
+        left: 10%;
     }
     .box-container h4 {
         position: relative;
@@ -300,14 +300,15 @@
         padding: 10px;
         height: 750px;
         background-color: rgb(7, 7, 7);
+        overflow: hidden;
     
     }
-    h2{
+    #h2-tittle{
         position: relative;
         top: 40px;
         width: 50vw;
         height: 30px;
-        left: 15%;
+        left: 10vw;
         font-family: 'Noto Serif';
         font-style: normal;
         font-weight: 600;
@@ -315,10 +316,11 @@
         font-weight: 700;
         text-shadow: 0px 4px 4px rgba(252, 247, 247, 0.342);
         letter-spacing: 0.02em;
-        margin-bottom: 8%;
+        /* margin-bottom: 8%; */
         color: white;
         padding-left: 5px;
         border-left: 9px solid rgb(2, 13, 155);
+        
     }
     .box-containers{
         position: relative;
@@ -333,7 +335,7 @@
         position: relative;
         top: 35px;
         width: 65vw;
-        height: 150px;
+        height: 220px;
         left: 10%;
     }
     .box-container h4 {
@@ -419,6 +421,18 @@
         padding: 10px;
     }
     #tittle-certificacion{
+        position: relative;
+        top: 40px;
+        width: 50vw;
+        height: 30px;
+        left: 10vw;
+        font-family: 'Noto Serif';
+        font-style: normal;
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        padding-left: 5px;
+        border-left: 9px solid rgb(2, 13, 155);
         color: black;
         letter-spacing: 0.02em;  
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
