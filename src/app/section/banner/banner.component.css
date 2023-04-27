@@ -25,7 +25,6 @@
         height: 200px;
         left: 20%;
         top:100px;
-        
         font-family: 'Noto Serif';
         font-style: normal;
         font-weight: 500;
@@ -35,11 +34,16 @@
         align-items: center;
         text-align: center;
         letter-spacing: 0.02em;
-        
-        color: #ffffff;
-        
+        color: #ffffff;  
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation: moveH1 1.5s 1;
+        transform: translateY(-10px);
+        animation-fill-mode: forwards;
     }
+        @keyframes moveH1 {
+            0%{transform: translateY(-10px); opacity: 0;}
+            100%{transform: translateY(100px); opacity: 1;}
+        }
     .banner-h1 .btn-cv{
         text-decoration: none;
         width: 150px;
@@ -80,11 +84,18 @@
         position: relative;
         width: 225px;
         height: 350px;
-        left: 80%;
+        left: 60%;
         top: -50px;
         overflow: hidden;
         border-radius: 45%;
+        animation: movePerfilImg 1.5s 1;
+        transform: translateX(80%);
+        animation-fill-mode: forwards;
     
+    }
+    @keyframes movePerfilImg {
+        0%{transform: translateX(80%); opacity: 0;}
+        100%{transform: translateX(-20%); opacity: 1;}
     }
     .perfil-img img{
         position: relative;
@@ -118,10 +129,8 @@
         position: relative;
         width: 60vw;
         height: 200px;
-        left: -60%;
+        left: -60vw;
         top: 350px;
-        /* top: 240px; */
-
         font-family: 'Noto Serif';
         font-style: normal;
         font-weight: 500;
@@ -131,10 +140,15 @@
         align-items: center;
         text-align: center;
         letter-spacing: 0.02em;
-        
-        color: #ffffff;
-        
+        color: #ffffff; 
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation: moveH1 1.5s 1;
+        transform: translateX(-60vw);
+        animation-fill-mode: forwards;      
+    }
+    @keyframes moveH1 {
+        0%{transform: translateX(-60vw); opacity: 0;}
+        100%{transform: translateX(80vw); opacity: 1;}
     }
     h1{
         font-size: 18px;
@@ -184,8 +198,13 @@
         overflow: hidden;
         border-radius: 45%;
         opacity: 70%;
-        animation-duration: 2s;
+        animation: movePerfilImg 2s 1;
+        animation-fill-mode: forwards;
     
+    }
+    @keyframes movePerfilImg {
+        0%{opacity: 70%;}
+        100%{ opacity: 100%;}
     }
     .perfil-img img{
         position: relative;
@@ -212,7 +231,7 @@
         position: absolute;
         background-repeat: no-repeat;
         background-size: cover;
-        opacity: 80%;
+        opacity: 68%;
     
     }
     .banner-h1{
@@ -221,7 +240,7 @@
         position: relative;
         width: 200px;
         height: 200px;
-        left: -50%;
+        left: -50vw;
         top: 320px;
         
         font-family: 'Noto Serif';
@@ -233,10 +252,15 @@
         align-items: center;
         text-align: center;
         letter-spacing: 0.02em;
-        
-        color: #ffffff;
-        
+        color: #ffffff;   
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation: moveH1 1.5s 1;
+        transform: translateX(-50vw);
+        animation-fill-mode: forwards;
+    }
+    @keyframes moveH1 {
+        0%{transform: translateX(-50vw); opacity: 0;}
+        100%{transform: translateX(50vw); opacity: 1;}
     }
     h1{
         font-size: 16px;
@@ -287,9 +311,15 @@
         overflow: hidden;
         border-radius: 45%;
         opacity: 70%;
-        animation-duration: 2s;
+        animation: movePerfilImg 2s 1;
+        animation-fill-mode: forwards;
     
     }
+    @keyframes movePerfilImg {
+        0%{opacity: 70%;}
+        100%{ opacity: 100%;}
+    }
+    
     .perfil-img img{
         position: relative;
         left: -15px;
