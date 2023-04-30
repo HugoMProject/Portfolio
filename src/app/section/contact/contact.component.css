@@ -3,7 +3,7 @@
     margin: 0;
 }
 /************************* laptop ****************************/
-@media screen and (min-width:700px) {
+@media screen and (min-width:1000px) {
     .container{
         position: relative;
         top: 1500px;
@@ -118,7 +118,7 @@
     }
 }
 /************************* tablet ****************************/
-@media (max-width:699px) and (min-width:500px) {
+@media (max-width:999px) and (min-width:500px) {
     .container{
         position: relative;
         top: 1300px;
